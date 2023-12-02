@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Nicolas Keng"
+title: "Nicolas Keng's Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -15,6 +15,6 @@ About Me
 
 **QQ: 3036536992**
 
-**E-mail: knk2004@163.com**
+**E-mail: nicolaskeng2004@163.com**
 
 **zhihu: [@Nicolas Keng](https://www.zhihu.com/people/nicolas-keng)**
