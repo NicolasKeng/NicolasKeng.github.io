@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 * B.S. in Shandong-China, Shandong University, 2021 - 
 
 
