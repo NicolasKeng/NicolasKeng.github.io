@@ -20,6 +20,10 @@ date: 2025-06-01
 
 **数分** [zhihu链接](https://zhuanlan.zhihu.com/p/608036069); [试卷下载pdf](https://NicolasKeng.github.io/exams/数分21基地.pdf).
 
+**高代** [试卷下载pdf](https://NicolasKeng.github.io/exams/高代21基地.pdf).
+
+**初等数论** [试卷下载pdf](https://NicolasKeng.github.io/exams/初等数论21基地.pdf).
+
 **大物** [zhihu链接](https://zhuanlan.zhihu.com/p/657257557); [试卷下载pdf](https://NicolasKeng.github.io/exams/大物21基地.pdf).
 
 **ODE** [zhihu链接](https://zhuanlan.zhihu.com/p/608040718); [试卷下载pdf](https://NicolasKeng.github.io/exams/ode21基地.pdf).
@@ -32,20 +36,30 @@ date: 2025-06-01
 
 ## 2022级
 
-**见[zhihu个人主页](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81).**
+见 [zhihu个人主页@氨基酸脱水缩合](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81).
 
 # 课程作业及其他资料
 
-**关于我的书单可参见[zhihu:我的数学书单](https://zhuanlan.zhihu.com/p/571443580).**
+**关于我的书单可参见 [zhihu:我的数学书单](https://zhuanlan.zhihu.com/p/571443580).**
 
 **[大一大二基础课程资料](https://pan.baidu.com/s/1DTeDLjlnrVFrVbVNxAjQQg?pwd=evii#list/path=%2F)**
 有若干基础课pdf资料; 提取码 evii.
 
-一些关于实变(stein)的作业答案可参见[zhihu个人主页](https://www.zhihu.com/people/nu-ma-zhi-an-bu).
+一些关于实变(stein)的作业答案可参见 [zhihu个人主页@observer](https://www.zhihu.com/people/nu-ma-zhi-an-bu).
 
-Munkres拓扑的前半部分答案可参见[dbfin: Munkres](https://dbfin.com/topology/munkres/).
+Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/topology/munkres/).
 
-一些关于丁石孙代数学引论的前四章部分习题解答可参见[第二章](https://zhuanlan.zhihu.com/p/615291290)或[前四章](https://zhuanlan.zhihu.com/p/619645312).
+一些关于丁石孙代数学引论的前四章部分习题解答可参见 [第二章](https://zhuanlan.zhihu.com/p/615291290) 或 [前四章](https://zhuanlan.zhihu.com/p/619645312).
+
+## 我的一些(本科难度)大作业&笔记
+
+**ode大作业:解的存在性与唯一性定理** [zhihu链接](https://zhuanlan.zhihu.com/p/595452043); [下载pdf](https://NicolasKeng.github.io/exams/ode大作业.pdf).
+
+**数学模型大作业:灰色预测与GM(1,1)模型实例** [zhihu链接](https://zhuanlan.zhihu.com/p/632844959); [下载pdf](https://NicolasKeng.github.io/exams/数模大作业.pdf).
+
+**数理统计中期作业:常见概率分布整理** [zhihu链接](https://zhuanlan.zhihu.com/p/666640239); [下载pdf](https://NicolasKeng.github.io/exams/数理统计中期作业.pdf).
+
+**数学模型中期作业:**
 
 # 一些其他友情链接
 
