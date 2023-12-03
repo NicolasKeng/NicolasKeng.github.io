@@ -5,10 +5,10 @@ permalink: /miscellanies/SDUMath-Exams
 excerpt_separator: <!--more-->
 date: 2025-06-01
 ---
-这是我所整理的山东大学数学学院的若干试题和一些作业等资料, 大部分由我打出或收集. 需要者自行下载, 欢迎投稿.
+这是我所整理的山东大学数学学院的若干试题和一些作业等资料, 部分由我打出或收集. 需要者自行下载, 欢迎投稿.
 <!--more-->
 
-**可访问[知乎链接](https://zhuanlan.zhihu.com/p/616176249/edit), 找到整体总结版.**
+**可访问[知乎链接](https://zhuanlan.zhihu.com/p/616176249), 找到整体总结版.**
 
 # 试题总结
 
@@ -18,17 +18,17 @@ date: 2025-06-01
 
 ## 2021级
 
-**数分** [zhihu链接:](https://zhuanlan.zhihu.com/p/608036069); [试卷下载pdf](https://NicolasKeng.github.io/exams/数分21基地.pdf).
+**数分** [zhihu链接](https://zhuanlan.zhihu.com/p/608036069); [试卷下载pdf](https://NicolasKeng.github.io/exams/数分21基地.pdf).
 
-**大物** [zhihu链接:](https://zhuanlan.zhihu.com/p/657257557); [试卷下载pdf](https://NicolasKeng.github.io/exams/大物21基地.pdf).
+**大物** [zhihu链接](https://zhuanlan.zhihu.com/p/657257557); [试卷下载pdf](https://NicolasKeng.github.io/exams/大物21基地.pdf).
 
-**ODE** [zhihu链接:](https://zhuanlan.zhihu.com/p/608040718); [试卷下载pdf](https://NicolasKeng.github.io/exams/ode21基地.pdf).
+**ODE** [zhihu链接](https://zhuanlan.zhihu.com/p/608040718); [试卷下载pdf](https://NicolasKeng.github.io/exams/ode21基地.pdf).
 
-**复变** [zhihu链接:](https://zhuanlan.zhihu.com/p/608041184); [试卷下载pdf](https://NicolasKeng.github.io/exams/复变21基地.pdf).
+**复变** [zhihu链接](https://zhuanlan.zhihu.com/p/608041184); [试卷下载pdf](https://NicolasKeng.github.io/exams/复变21基地.pdf).
 
-**实变** [zhihu链接:](https://zhuanlan.zhihu.com/p/639659933); [试卷下载pdf](https://NicolasKeng.github.io/exams/实变21基地.pdf).
+**实变** [zhihu链接](https://zhuanlan.zhihu.com/p/639659933); [试卷下载pdf](https://NicolasKeng.github.io/exams/实变21基地.pdf).
 
-**概率论** [zhihu链接:](https://zhuanlan.zhihu.com/p/639667478); [试卷下载pdf](https://NicolasKeng.github.io/exams/概率论21基地.pdf).
+**概率论** [zhihu链接](https://zhuanlan.zhihu.com/p/639667478); [试卷下载pdf](https://NicolasKeng.github.io/exams/概率论21基地.pdf).
 
 ## 2022级
 
