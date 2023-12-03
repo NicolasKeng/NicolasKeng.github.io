@@ -59,8 +59,6 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 
 **数理统计中期作业:常见概率分布整理** [zhihu链接](https://zhuanlan.zhihu.com/p/666640239); [下载pdf](https://NicolasKeng.github.io/exams/数理统计中期作业.pdf).
 
-**数学模型中期作业:**
-
 # 一些其他友情链接
 
 [USTC学习资料-zjy](https://www.zhangjy9610.me/USTCdata.html).
