@@ -35,7 +35,7 @@ date: 2025-06-01
 **ODE** 
 [21基地ode-zhihu](https://zhuanlan.zhihu.com/p/608040718); 
 [21基地ode期中](https://NicolasKeng.github.io/exams/21基地ode期中.pdf), 
-[21基地ode期中](https://NicolasKeng.github.io/exams/21基地ode期末.pdf).
+[21基地ode期末](https://NicolasKeng.github.io/exams/21基地ode期末.pdf).
 
 **大物** 
 [21大物-zhihu](https://zhuanlan.zhihu.com/p/657257557); 
@@ -75,7 +75,7 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 
 ## 我的一些(本科难度)大作业&笔记
 
-**ode大作业:解的存在性与唯一性定理** 
+**ode大作业: 解的存在性与唯一性定理** 
 [zhihu](https://zhuanlan.zhihu.com/p/595452043); 
 [pdf](https://NicolasKeng.github.io/homeworks/ode大作业.pdf).
 
@@ -83,12 +83,12 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 [pdf](https://NicolasKeng.github.io/homeworks/数学模型大作业.pdf), 
 [latex源码](https://NicolasKeng.github.io/homeworks/数学模型大作业.zip).
 
-**数学实验大作业:灰色预测与GM(1,1)模型实例** 
+**数学实验大作业: 灰色预测与GM(1,1)模型实例** 
 [zhihu](https://zhuanlan.zhihu.com/p/632844959); 
 [pdf](https://NicolasKeng.github.io/homeworks/数学实验大作业.pdf), 
 [latex原码](https://NicolasKeng.github.io/homeworks/数学实验大作业.zip).
 
-**数理统计中期作业:常见概率分布整理** 
+**数理统计中期作业: 常见概率分布整理** 
 [zhihu](https://zhuanlan.zhihu.com/p/666640239); 
 [pdf](https://NicolasKeng.github.io/exams/homeworks/数理统计中期作业.pdf).
 
