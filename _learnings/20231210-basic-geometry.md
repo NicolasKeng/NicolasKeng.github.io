@@ -1,15 +1,16 @@
 ---
 title: "Basic Geometry"
 collection: learnings
-permalink: /learnings/learning-basic-geometry
+permalink: /learnings/20231210-basic-geometry
 excerpt_separator: <!--more-->
-date: 2023-12-10
+date: 2023-12-30
 ---
-关于大三上学期几何学基础(微分几何, 微分流形)的复习笔记.
+关于大三上学期两门基础几何学(微分几何, 微分流形)的复习笔记.
 <!--more-->
 
 # Differential Geometry
-**彭家贵, 微分几何, Chapter 1-7**
+
+**彭家贵, 微分几何**
 
 ## Curves
 
@@ -30,7 +31,8 @@ date: 2023-12-10
 ## Intrinsic Surfaces
 
 # Manifolds
-**梅加强, 流形与几何初步, Chapter1,2**
+
+**梅加强, 流形与几何初步; Lee, Gtm218; Loring Tu, An Introduction to Manifolds**
 
 ## Differential Manifolds
 
