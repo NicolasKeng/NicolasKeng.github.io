@@ -56,7 +56,7 @@ date: 2025-06-01
 [21基地概率论期末.pdf](https://NicolasKeng.github.io/exams/21基地概率论期末.pdf).
 
 **数理统计** 
-[21基地数理统计-zhihu](); 
+[21基地数理统计-zhihu](https://zhuanlan.zhihu.com/p/639669183); 
 [21基地数理统计期末.pdf](https://NicolasKeng.github.io/exams/21基地数理统计期末.pdf).
 
 **微分几何** 
