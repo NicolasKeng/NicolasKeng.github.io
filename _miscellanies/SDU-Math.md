@@ -55,6 +55,22 @@ date: 2025-06-01
 [21基地概率论-zhihu](https://zhuanlan.zhihu.com/p/639667478); 
 [21基地概率论期末.pdf](https://NicolasKeng.github.io/exams/21基地概率论期末.pdf).
 
+**数理统计** 
+[21基地数理统计-zhihu](); 
+[21基地数理统计期末.pdf](https://NicolasKeng.github.io/exams/21基地数理统计期末.pdf).
+
+**微分几何** 
+[21基地微分几何-zhihu](); 
+[21基地微分几何期末.pdf](https://NicolasKeng.github.io/exams/21基地微分几何期末.pdf).
+
+**微分流形** 
+[21基地微分流形-zhihu](); 
+[21基地微分流形期末.pdf](https://NicolasKeng.github.io/exams/21基地微分流形期末.pdf).
+
+**泛函分析** 
+[21基地泛函分析-zhihu](); 
+[21基地泛函分析期末.pdf](https://NicolasKeng.github.io/exams/21基地泛函分析期末.pdf).
+
 ## 2022级
 
 见 [zhihu个人主页@氨基酸脱水缩合](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81).
