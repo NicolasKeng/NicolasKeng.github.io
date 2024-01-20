@@ -18,7 +18,7 @@ date: 2025-06-01
 
 2015-18级学长所整理的试题集锦可以在下面的网盘链接**[大一大二基础课程资料](https://pan.baidu.com/s/1DTeDLjlnrVFrVbVNxAjQQg?pwd=evii#list/path=%2F)**中的"葵花宝典"文件夹中下载. 
 
-19级的一些资料可见[19考试题](https://NicolasKeng.github.io/exams/考试题-密码12345.zip).
+19级的一些资料可见[19考试题](https://NicolasKeng.github.io/exams/考试题-密码12345.rar).
 
 
 
