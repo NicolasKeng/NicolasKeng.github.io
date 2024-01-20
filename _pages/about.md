@@ -18,3 +18,7 @@ About Me
 **E-mail: nicolaskeng2004@163.com**
 
 **zhihu: [@Nicolas Keng](https://www.zhihu.com/people/nicolas-keng)**
+
+**关于我所收集/整理的SDU试题和资料请参见[SDUMath](nicolaskeng.github.io/miscellanies/SDUMath-Exams)**
+
+**关于我的书籍推荐请参见[MyLibs](nicolaskeng.github.io/miscellanies/MyLibs)**
