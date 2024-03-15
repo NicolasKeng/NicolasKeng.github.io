@@ -23,6 +23,4 @@ About Me
 
 **关于我的书籍推荐请参阅[MyLibs](https://nicolaskeng.github.io/miscellanies/MyLibs)**
 
-**我的一些(或许能称之为笔记的)整理和感想请参阅[Learnings](https://nicolaskeng.github.io/learnings/)**
-
-**我的一些(闲来无事写的/整理的)内容请参阅[Learnings](https://nicolaskeng.github.io/miscellanies/)**
+由于我的英语能力十分有限, 故一些中文资料或许是某种程度上必需的. 如果我有读某本书的打算, 或许我会将其大略翻译一下. 参见[Translates](https://nicolaskeng.github.io/learnings/translates).
