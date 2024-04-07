@@ -3,27 +3,25 @@ title: "我的个人书单"
 collection: Miscellanies
 permalink: /miscellanies/MyLibs
 excerpt_separator: <!--more-->
-date: 2025-06-01
 ---
-这是我在学习过程中所参考的书籍列表. 
+这是我在学习过程中所参考的书籍列表. 一个更进阶的参考资料合集在 **[MyLibs2](https://nicolaskeng.github.io/miscellanies/MyLibs)**.
 <!--more-->
 
 **可访问[知乎链接](https://zhuanlan.zhihu.com/p/571443580)看到.**
 
-> 在这里稍微整理一下我本人在数学学习过程中用的或者参考过的一些网站和书(以及我对他们的它们的完全主观且片面的评价), 其中大部分都是没有完全看完的2333
-> 发表一个观点: 我觉得推荐课本至少需要你自己看过(一部分)之后才能有资格给别人推荐, 否则是极端不负责任的行为. 现在神必人实在过多, 不是什么好事. 
+> 在这里稍微整理一下我本人在(本科)数学学习过程中用的或者参考过的一些网站和书(以及我对他们的它们的完全主观且片面的评价).
 
-> 欢迎各位大佬补充awa 持续更新ing
+**我所坚持的是: 推荐课本至少需要你自己看过(一部分)之后才能有资格给别人推荐, 否则是极端不负责任的行为.** 现在神必人实在过多, 不是什么好事.
 
-集合论与数理逻辑
+# 集合论与数理逻辑
 
 Thomas Jech, Set Theory: 大厚书, 我只看了一半不到. 读起来不怎么友好, 但是内容全面且严谨, 第一部分(Basic Set Theory)对本科数学已完全足够(事实上你看四五节就够了).
 
-分析与方程
+# 分析与方程
 
 (代数壬对分析了解极其有限)
 
-数学分析
+## 数学分析
 
 首先表明态度: 我个人不主张在数分就巨大超前学一些升级的知识，也不期望在数分里加入过多实分析、拓扑、流形的知识，更不赞成重复性地大量刷题或沉迷于过量的奇技淫巧。了解一些技巧和深层知识是好事，但还是先把自己的分析成熟度提升起来，先好好用一两本书把数分学明白再去看其他的所谓深层知识，不要被某些所谓大v实则神必人的数学八卦家牵着鼻子走。
 
@@ -45,7 +43,7 @@ Terence Tao, Analysis: 从Peano公理出发搭建分析框架，用基本列的�
 
 Biler, Witkowski, Problems in Mathematical Analysis: 慎重刷此书。虽然是很优秀的习题集但是难度巨大超标。
 
-复分析
+## 复分析
 
 Stein, Complex Analysis: 分析化的书，习题质量很好但深度不足，有些证明觉得有小问题。后面讲了不少解析数论有关的内容，比较适合入门看（本科内容前三章加第八章就差不多了）。缺点是太多重点内容放在习题里了（甚至Laurant级数），而且讲的很像解析数论导论。
 
@@ -53,7 +51,15 @@ Ahlfors, Complex Analysis: 包含大量的几何观点，和Stein互补。
 
 小平邦彦, 复分析: 后面和初等黎曼面衔接的特别好，适合补充一些几何观点。
 
-常微分方程
+## 实分析
+
+Stein, Real Analysis: 
+
+(Big) Rudin, Real and Complex Analysis: 
+
+汪林, 实分析中的问题与反例: 汪林这几本反例系列均可封神，几乎没有替代品，全且精到。
+
+## 微分方程
 
 丁同仁, 常微分方程教程: 形式较为古典的中文微分方程教材，我们的课本。中规中矩，讲的比较全面也比较细，但是很难说有什么亮点（第一版有一些高级的东西但是第二版删了，所以第一版其实更好点）。
 
@@ -63,23 +69,8 @@ Ahlfors, Complex Analysis: 包含大量的几何观点，和Stein互补。
 
 Arnold, ODE: 是公认的好书，但是太几何化且内容也没有过于深入，所以和国内的数学分析课程衔接的很不好。如果数分对几何方面接触的很多可以采用。
 
-实分析
 
-“实分析生词少，还只需要高中数学基础——Observer”
-
-Stein, Real Analysis: 
-
-(Big) Rudin, Real and Complex Analysis: 
-
-汪林, 实分析中的问题与反例: 汪林这几本反例系列均可封神，几乎没有替代品，全且精到。
-
-Folland: 
-
-概率统计
-
-Durrett: 
-
-泛函分析
+## 泛函分析
 
 张恭庆: 
 
@@ -87,11 +78,10 @@ Lax:
 
 Conway(GTM096): 
 
-偏微分方程
 
-代数与数论
+# 代数
 
-线性代数
+## 线性代数
 
 线性代数作为本科入门课程, 更重要的是建立概念和思维, 而不是像中学时那样单纯地追求解难题技巧; 而且国内苏联风格的线代教学方式需要比较大量的习题进行巩固, 所以习题册也是必不可少的. 我对线代的态度和对数分的态度相同. 
 
@@ -107,7 +97,7 @@ S. Axler, Linear Algebra Done Right: 广为人知的优秀参考书, 而且有�
 
 Roger Godement, 代数学教程: 很好的抽代线代衔接教材, Bourbaki学派的风格, 几乎一直以抽代的视角引入线代中的定理知识, 对之后的学习很有帮助. 但是难度对于绝大多数初学者不友好, 并且习题多且难(我甚至是在这本书习题第一次看到的Hilbert Nullstellensatz). 读得懂的话能帮你飞速提升代数成熟度, 读不懂还是换书吧. 
 
-抽象代数
+## 抽象代数
 
 Thomas Hungerford, Algebra(GTM73): 很好的书, 尤其前四章观点极好, 省去了很多不必要的过程(这也对你自己的要求较高), 证明也采用的最简明的形式; 习题很好但是没必要全做, 有些题可以去MSE上搜一搜. Galois部分有点没有注重域论本身的性质, 可能李文威的教材会在这部分更好. 
 
@@ -115,7 +105,7 @@ Paolo Aluffi, Algebra Chapter 0: 大概是李文威代数学方法的超级友�
 
 Dummit&Foote, Abstract Algebra: 有大量高质量的例子, 很适合代数直觉和代数成熟度的培养. 
 
-范畴论
+## 范畴论
 
 李文威, 代数学方法第一卷, 第二章: 不是很适合专门学习, 比较适合速通 (?) 适合在学了初步的范畴论准备和同调代数衔接的时候看, 对追图的一些方法用的很多也很不易懂.
 
@@ -123,7 +113,7 @@ Emily Riehl, Category Theory in Context: 例子特别全, 比较基础的范畴�
 
 Tom Leinster, Basic Category Theory: 我个人强推的书. 讲的也别细, 但是没有偏高级的内容, 极其适合入门. 有errata. 
 
-交换代数
+## 交换代数
 
 Atiyah&MacDonald, Introduction to Commutative Algebra: 正文内容很少, 几乎所有重要内容都在习题里面, 虽然只有一百多页但是必要内容很全(但也基本只有必要内容了); 通篇干货, 缺乏良好动机陈述, 证明简洁; 但重要的思路都点到了(也仅限于此). 适合速通, 但想深入学习是远远不够的. 
 
@@ -133,7 +123,7 @@ Matsumura, Commutative Ring Theory: 建议Atiyah结束再看. 内容很丰富, �
 
 Matsumura, Commutative Algebra: 和他本人的CRT对照着看, 可以互相补充. 有重排和  原码. 
 
-同调代数
+## 同调代数
 
 M. Osborne, Basic Homological Algebra(GTM196): 行文很友好, 适合入门. 缺点是没有谱序列. 
 
@@ -141,25 +131,71 @@ Charles Weibel, An Introduction to Homological Algebra: 全面, 前五章讲的�
 
 李文威, 代数学方法第二卷: 感觉前面是很标准的同调, 越往后越看不懂...等我看完了再续写这个...
 
-表示论
+## 群表示论
 
 J.P. Serre, Linear Representations of Finite Groups(GTM42): 第一Part很友好, 二三Part就有点太提升了...
 
 薛航, 表示论讲义: 偏向进阶的小册子, 很精简, 适合作为补充.
 
-Lie代数
+## Lie代数
 
 反正别看GTM009就对了! 
 
 Mark R. Sepanski, Compact Lie Groups(GTM235): 感觉很友好.
 
-解析数论
+
+
+# 几何与拓扑
+
+## 解析几何
+
+我看没有必要专门学解析几何. 
+
+## 点集拓扑
+
+J. Munkres, Topology: 点集拓扑部分讲的特别全且细致, 而且很注重培养初步的几何直观. 熊金城老师的中译本也不错, 是罕见的中译本中行文流畅且错漏较少的, 值得看. 
+
+尤承业, 基础拓扑学讲义: 速通常用书, 内容比较全但是很简洁, 而且不那么注重几何直观. 适合想要迅速通一遍点集拓扑然后去直接看代数拓扑的人. 
+
+## 代数拓扑
+
+Hatcher, Algebraic Topology: 
+
+Bott&Tu, Differential Forms in Algebraic Topology(GTM82): 
+
+J.P may, A concise course in Algebraic Topology: 看了三页就被劝退…
+
+## (古典)微分几何
+
+陈卿, 彭家贵, 微分几何: 标准中文教材, 知识点比较全面. 但是不是很喜欢这种标架讲了一通自然标架之后再来正交标架的感觉...只能说确实行文比较黎曼几何.
+
+Do Carmo, Differential Geometry of Curves & Surfaces: 几何角度讲得很好的书, 应该是标准英文教材. 感觉前面关于Dupin等地方的处理很好. 
+
+徐森林, 微分几何学习指导: 内容及其全面的中文教材, 配合任意一本书当参考来看都很好; 适合期末前复习. 
+
+Wilhelm Klingenberg, A Course in Differential Geometry(GTM051): 基本从最一般的情况开始考虑, 也讲了一些具体计算的小技巧. 
+
+E. Abbena, A. Gray, Modern Differential Geometry of Curves and Surfaces with Mathematica: 这是一本我不知道怎么评价的书...七八百页的篇幅却只讲了古典微分几何实在过于鸡肋, 但是例子和直观丰富到你不敢想象. 感觉实在不适合做教材(实在太耗时间 我看这本书看了一个月), 但是参考是很不错的选择. 
+
+## 流形
+
+Loring Tu, An Introduction to Manifolds: 极度友好, 很好地帮助初学者理顺思路并理清概念. 从Euclid空间入手, 然后引入流形, 依次从向量场-李群-微分形式-积分-上同调的顺序, 浅显易懂; 缺点是可能某些时候过于平缓, 需要看一些其他的教材补知识点. 
+
+John. M. Lee, Introduction to Smooth Manifolds(GTM218): 感觉某群友的评价很好: "睡前读物". 这就是一本很标准很细致的教材, 你自己稍稍检验一下细节一天看个三四十页不是问题.
+
+梅加强, 流形与几何初步: 前两章是比较不错的流形教材, 第三章是速通版黎曼几何初步. 后两章没看过. 
+
+
+
+# 数论
+
+## 解析数论
 
 Apostol, Introduction to Analytic Number Theory: 可以作为初等数论的复习或解析数论的入门, 很友好. 
 
 Karatsuba, Basic Analytic Number Theory: 解析数论大部分基础知识都有, 讲的也比较舒适. check一下细节就能直接看进阶的书了. 
 
-代数数论
+## 代数数论
 
 冯克勤, 代数数论: 适合入门, 写的很简单, 读完Atiyah就能看, 题目也是计算为主. 缺点是过于简单以至于你很难找到丰富的交换代数的应用. 
 
@@ -172,55 +208,6 @@ Swinnerton-Dyer, A Brief Guide to Algebraic Number Theory: 我觉得代数数论
 加藤和也, 数论I: 感觉是软入门的好书, 但是内容不太够. 
 
 （吐槽一下黎景辉那几本书 代数群 代数数论 拓扑群什么的…我不确定他是否把他的读者假定成人, 因为我不觉得这是正常人能看懂的东西）
-
-几何与拓扑
-
-解析几何
-
-我看没有必要专门学解析几何。
-
-“数学专业不学解析几何，就像玩游戏不玩**一样，毫无损失”——迷神
-
-点集拓扑
-
-J. Munkres, Topology: 点集拓扑部分讲的特别全且细致, 而且很注重培养初步的几何直观. 熊金城老师的中译本也不错, 是罕见的中译本中行文流畅且错漏较少的, 值得看. 
-
-尤承业, 基础拓扑学讲义: 速通常用书, 内容比较全但是很简洁, 而且不那么注重几何直观. 适合想要迅速通一遍点集拓扑然后去直接看代数拓扑的人. 
-
-代数拓扑
-
-Hatcher, Algebraic Topology: 
-
-Bott&Tu, Differential Forms in Algebraic Topology(GTM82): 
-
-J.P may, A concise course in Algebraic Topology: 看了三页就被劝退…
-
-（古典）微分几何
-
-陈卿, 彭家贵, 微分几何: 标准中文教材, 知识点比较全面. 但是不是很喜欢这种标架讲了一通自然标架之后再来正交标架的感觉...只能说确实行文比较黎曼几何.
-
-Do Carmo, Differential Geometry of Curves & Surfaces: 几何角度讲得很好的书, 应该是标准英文教材. 感觉前面关于Dupin等地方的处理很好. 
-
-徐森林, 微分几何学习指导: 内容及其全面的中文教材, 配合任意一本书当参考来看都很好; 适合期末前复习. 
-
-Wilhelm Klingenberg, A Course in Differential Geometry(GTM051): 基本从最一般的情况开始考虑, 也讲了一些具体计算的小技巧. 
-
-E. Abbena, A. Gray, Modern Differential Geometry of Curves and Surfaces with Mathematica: 这是一本我不知道怎么评价的书...七八百页的篇幅却只讲了古典微分几何实在过于鸡肋, 但是例子和直观丰富到你不敢想象. 感觉实在不适合做教材(实在太耗时间 我看这本书看了一个月), 但是参考是很不错的选择. 
-
-流形
-
-Loring Tu, An Introduction to Manifolds: 极度友好, 很好地帮助初学者理顺思路并理清概念. 从Euclid空间入手, 然后引入流形, 依次从向量场-李群-微分形式-积分-上同调的顺序, 浅显易懂; 缺点是可能某些时候过于平缓, 需要看一些其他的教材补知识点. 
-
-John. M. Lee, Introduction to Smooth Manifolds(GTM218): 感觉某群友的评价很好: "睡前读物". 这就是一本很标准很细致的教材, 你自己稍稍检验一下细节一天看个三四十页不是问题.
-
-梅加强, 流形与几何初步: 前两章是比较不错的流形教材, 第三章是速通版黎曼几何初步. 后两章没看过. 
-
-黎曼几何
-
-黎曼曲面
-
-代数几何
-
 
 
 
