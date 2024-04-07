@@ -4,7 +4,7 @@ collection: Miscellanies
 permalink: /miscellanies/MyLibs
 excerpt_separator: <!--more-->
 ---
-这是我在学习过程中所参考的书籍列表. 一个更进阶的参考资料合集在 **[MyLibs2](https://nicolaskeng.github.io/miscellanies/MyLibs)**.
+这是我在学习过程中所参考的书籍列表. 一个更进阶的参考资料合集在 **[MyLibs2](https://nicolaskeng.github.io/miscellanies/MyLibs2)**.
 <!--more-->
 
 **可访问[知乎链接](https://zhuanlan.zhihu.com/p/571443580)看到.**
