@@ -21,7 +21,7 @@ E-mail: nicolaskeng2004@163.com (多用于数学) & knk2004@163.com (多用于�
 
 关于我所收集/整理的SDU试题和资料请参阅 **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)**
 
-**由于我在百度文库看见了我所整理的pdf文档, 现已着手将所有pdf全部转化为网页内置. 请勿利用这些内容牟利!!!**
+**由于我在百度文库看见了我所整理的pdf文档, 之后的非试题内容的pdf全部转化为网页内置. 请勿利用我个人的内容牟利!!!**
 
 关于我的书籍推荐请参阅 **[MyLibs](https://nicolaskeng.github.io/miscellanies/MyLibs)**
 
