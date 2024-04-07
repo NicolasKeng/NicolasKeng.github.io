@@ -3,10 +3,11 @@ title: "SDU数院试题&个人相关课程资料"
 collection: Miscellanies
 permalink: /miscellanies/SDUMath-Exams
 excerpt_separator: <!--more-->
-date: 2025-06-01
 ---
-这是我所整理的山东大学数学学院的若干试题和一些作业等资料, 部分由我打出或收集. 需要者自行下载, 欢迎投稿! 
+这是我所整理的山东大学数学学院本科的若干试题和一些作业等资料, 部分由我打出或收集. 需要者自行下载, 欢迎投稿! 
 <!--more-->
+
+投稿(联系方式): 在[主页](https://nicolaskeng.github.io/). 
 
 **可访问[知乎链接](https://zhuanlan.zhihu.com/p/616176249)查看(一个不那么完全的)版本.**
 
@@ -250,7 +251,7 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 
 
 
-# 我的一些(本科难度)大作业&笔记
+# 我的一些本科的大作业
 
 ### ode大作业: 解的存在性与唯一性定理
 [zhihu](https://zhuanlan.zhihu.com/p/595452043), 
@@ -275,7 +276,4 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 ### 微分几何知识梳理
 [zhihu](https://zhuanlan.zhihu.com/p/669239881)
 
-# 一些其他友情链接
-
-[USTC学习资料-zjy](https://www.zhangjy9610.me/USTCdata.html).
 
