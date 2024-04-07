@@ -11,17 +11,19 @@ redirect_from:
 About Me
 ======
 
-**山东大学数学学院2021级本科在读**
+山东大学数学学院2021级本科在读 **(快要没学上了!!!!!)**
 
-**QQ & WeChat: 3036536992**
+QQ & WeChat: 3036536992
 
-**E-mail: nicolaskeng2004@163.com & knk2004@163.com**
+E-mail: nicolaskeng2004@163.com (多用于数学) & knk2004@163.com (多用于非数学)
 
-**zhihu: [@Nicolas Keng](https://www.zhihu.com/people/nicolas-keng), 主要用来发一些习题答案有关的内容**
+**zhihu: [@Nicolas Keng](https://www.zhihu.com/people/nicolas-keng), 主要用来发一些习题答案和复习有关的内容**
 
-**关于我所收集/整理的SDU试题和资料请参阅[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)**
+关于我所收集/整理的SDU试题和资料请参阅 **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)**
 
-**关于我的书籍推荐请参阅[MyLibs](https://nicolaskeng.github.io/miscellanies/MyLibs)**
+**由于我在百度文库看见了我所整理的pdf文档, 现已着手将所有pdf全部转化为网页内置. 请勿利用这些内容牟利!!!**
+
+关于我的书籍推荐请参阅 **[MyLibs](https://nicolaskeng.github.io/miscellanies/MyLibs)**
 
 
 
