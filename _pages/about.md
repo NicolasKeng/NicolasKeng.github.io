@@ -37,9 +37,12 @@ About Me
 
 页面上的东西很多也很杂, 大致分类原则是: 
 
-- **[Learnings](https://nicolaskeng.github.io/learnings/)** 收录一些我自己的笔记, 它们大多参考了多份资料. 我会尽量列出参考.
-- **[Lectures](https://nicolaskeng.github.io/lectures/)** 收录一些我所作的讲座和讨论班的资料, 它们主要来自我在SDU主办的华协系列活动; 线上与朋友们办的讨论班的我主讲部分等.
-- **[Miscellanies](https://nicolaskeng.github.io/miscellanies/)** 收录一些其他的大部分与数学关系不大的内容. 这里面
+**[Learnings](https://nicolaskeng.github.io/learnings/)** 收录一些我自己的笔记, 它们大多参考了多份资料. 我会尽量列出参考.
+
+**[Lectures](https://nicolaskeng.github.io/lectures/)** 收录一些我所作的讲座和讨论班的资料, 它们主要来自我在SDU主办的华协系列活动; 线上与朋友们办的讨论班的我主讲部分等.
+
+**[Miscellanies](https://nicolaskeng.github.io/miscellanies/)** 收录一些其他的大部分与数学关系不大的内容. 这里面
+    
   - 命名为年份的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
   - 命名为Blog的系列是我的一些兴趣爱好, 大多丝毫不专业, 完全不建议作为参考. 
   - **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)**, **[MyLibs](https://nicolaskeng.github.io/miscellanies/MyLibs)**, **[Translates](https://nicolaskeng.github.io/miscellanies/Translates)** 等系列前业已介绍.
