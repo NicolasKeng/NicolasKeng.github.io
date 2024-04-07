@@ -1,5 +1,5 @@
 ---
-title: "我的个人书单"
+title: "我的个人书单1"
 collection: Miscellanies
 permalink: /miscellanies/MyLibs
 excerpt_separator: <!--more-->
