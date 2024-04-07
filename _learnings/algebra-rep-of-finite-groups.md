@@ -1,7 +1,7 @@
 ---
 title: "Representation of Finite Groups"
 collection: learnings
-permalink: /learnings/20231223-rep-of-finite-groups
+permalink: /learnings/algebra/rep-of-fimite-groups
 excerpt_separator: <!--more-->
 date: 2023-12-24
 ---
