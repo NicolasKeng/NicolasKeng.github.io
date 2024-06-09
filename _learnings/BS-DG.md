@@ -1,7 +1,7 @@
 ---
 title: "Differential Geometry"
 collection: learnings
-permalink: /learnings/algebra/BS-DG
+permalink: /learnings/BS/DG
 excerpt_separator: <!--more-->
 date: 2024-1-17
 ---
