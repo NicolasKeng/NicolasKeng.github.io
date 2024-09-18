@@ -39,7 +39,7 @@ About Me
 
 **[Miscellanies](https://nicolaskeng.github.io/miscellanies/)** 收录一些其他的(大部分与数学关系不大的)内容. 这里面
     
-  - 命名为年份的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
+  - 命名为日期的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
   - 命名为Blog的系列是我的一些兴趣爱好, 大多丝毫不专业, 完全不建议作为参考. 
   - **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)** 作为特殊的置顶系列前业已介绍.
 
