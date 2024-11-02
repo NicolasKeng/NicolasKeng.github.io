@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ======
 
-山东大学数学学院2021级本科在读 **(快要没学上了!!!!!)**
+山东大学数学学院2021级本科在读, 2024预推免山大青岛交叉中心
 
 ## 如何联系我? 
 
@@ -42,6 +42,7 @@ About Me
   - 命名为日期的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
   - 命名为Blog的系列是我的一些兴趣爱好, 大多丝毫不专业, 完全不建议作为参考. 
   - **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)** 作为特殊的置顶系列前业已介绍.
+  - 我的个人兴趣: 语言学与文字学, 书法, Vocaloid, 雀魂, etc.
 
 有一些笔记我会没有那么多的时间去整理, 所以或许有些网页内有很多图片或图片式的PDF. 由于Github库的大小限制, 它们大多在 **[Exercises](https://github.com/NicolasKeng/Exercises)** 和 **[Notes](https://github.com/NicolasKeng/Notes)** 中, 您可以直接捆绑下载. 如果这里面没有, 或许他们也能在知乎上随机地出现.
 
