@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ------
-* B.S. in Shandong-China, Shandong University, 2021 - 
+* B.S. in Shandong, China, Shandong University, 2021 - now
+* B.S. in Beijing, China, AMSS, 2024 - now
 
 
