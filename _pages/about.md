@@ -42,11 +42,11 @@ About Me
   - 命名为日期的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
   - 命名为Blog的系列是我的一些兴趣爱好, 大多丝毫不专业, 完全不建议作为参考. 
   - **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)** 作为特殊的置顶系列前业已介绍.
-  - 我的个人兴趣: 语言学与文字学, 书法, Vocaloid, 雀魂, etc.
+  - 我的个人兴趣: 语言学与文字学(包括[汉字听写](https://naodongdahui.github.io/)), 书法, Vocaloid, 雀魂, etc.
 
 有一些笔记我会没有那么多的时间去整理, 所以或许有些网页内有很多图片或图片式的PDF. 由于Github库的大小限制, 它们大多在 **[Exercises](https://github.com/NicolasKeng/Exercises)** 和 **[Notes](https://github.com/NicolasKeng/Notes)** 中, 您可以直接捆绑下载. 如果这里面没有, 或许他们也能在知乎上随机地出现.
 
-(可能是很久的之后)有时间的话我(**或许**)会慢慢整理的. 
+惯例是每学期的笔记我都会在放寒/暑假第一周(也可能是很久的之后)整理上传. 有时间的话我(**或许**)会慢慢整理的. 
 
 ## 我在干什么&我为什么要上传这些东西?
 
