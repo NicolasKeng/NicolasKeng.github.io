@@ -5,7 +5,7 @@ permalink: /learnings/BS/AnalNT1
 excerpt_separator: <!--more-->
 date: 2024-7-4
 ---
-关于二潘解析数论1-18章的笔记. 持续更新ing
+关于二潘解析数论1-18章的笔记. 持续更新ing (鸽了)
 <!--more-->
 
 这部分主要是我读二潘解析数论基础的笔记. 我们必修部分大概是Apostol的全书, 但是难度属实有点不够:(
