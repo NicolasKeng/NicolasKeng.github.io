@@ -67,6 +67,13 @@ excerpt_separator: <!--more-->
 [23数分2期中1](https://zhuanlan.zhihu.com/p/692760373). 
 [23数分2期中2](https://zhuanlan.zhihu.com/p/700335233). 
 [23数分2期末](https://zhuanlan.zhihu.com/p/707387706). 
+[23数分3期中1](https://zhuanlan.zhihu.com/p/1747324764). 
+[23数分3期中2](https://zhuanlan.zhihu.com/p/8399811668). 
+[23数分3期末](https://zhuanlan.zhihu.com/p/16735890225). 
+
+### 2024级
+**联合命题**
+[24数分2期末](https://zhuanlan.zhihu.com/p/1921276559861481799).
 
 
 
@@ -90,6 +97,9 @@ excerpt_separator: <!--more-->
 [23高代1期末](https://zhuanlan.zhihu.com/p/678383822). 
 [23高代2期中1](https://zhuanlan.zhihu.com/p/689733017). 
 [23高代2期中2](https://zhuanlan.zhihu.com/p/697912765). 
+
+### 2024级
+[24高代2期中2](https://zhuanlan.zhihu.com/p/1900187617514984823). 
 
 
 
@@ -134,6 +144,18 @@ excerpt_separator: <!--more-->
 [22强基ode期末](https://zhuanlan.zhihu.com/p/678609197)
 
 
+### 2023级
+
+**黄淑祥** 
+[23强基ode期中](https://zhuanlan.zhihu.com/p/5153185580). 
+
+**李刚**
+[23普班ode期中](https://zhuanlan.zhihu.com/p/6608212418). 
+
+**联合命题**
+[23普班ode期末](https://zhuanlan.zhihu.com/p/17416159447).
+
+
 
 ## 大学物理
 
@@ -153,7 +175,7 @@ excerpt_separator: <!--more-->
 **许玉铭** 
 [21基地复变-zhihu](https://zhuanlan.zhihu.com/p/608041184), 
 [21基地复变期中](https://NicolasKeng.github.io/exams/21基地复变期中.pdf), 
-[21基地复变期中](https://NicolasKeng.github.io/exams/21基地复变期末.pdf).
+[21基地复变期末](https://NicolasKeng.github.io/exams/21基地复变期末.pdf).
 
 ### 2022级
 
@@ -164,6 +186,15 @@ excerpt_separator: <!--more-->
 
 **扈培础** 
 [22强基复变期末](https://zhuanlan.zhihu.com/p/678600797).
+
+### 2023级
+
+**扈培础**
+[23强基复变期末](https://zhuanlan.zhihu.com/p/16235735946).
+
+**凌松波**
+[23普通班复变期中](https://zhuanlan.zhihu.com/p/5539967945). 
+[23普通班复变期末](https://zhuanlan.zhihu.com/p/16257847781).
 
 
 
@@ -184,6 +215,11 @@ excerpt_separator: <!--more-->
 [22基地实变期中](https://zhuanlan.zhihu.com/p/695297059). 
 [22基地实变期末](https://zhuanlan.zhihu.com/p/705615075). 
 
+### 2023级
+
+**联合命题**
+[23实变期中](https://zhuanlan.zhihu.com/p/1897997910517486767).
+
 
 
 ## 概率论
@@ -194,10 +230,21 @@ excerpt_separator: <!--more-->
 [21基地概率论-zhihu](https://zhuanlan.zhihu.com/p/639667478), 
 [21基地概率论期末](https://NicolasKeng.github.io/exams/21基地概率论期末.pdf).
 
+
 ### 2022级
 
 **胡发胜** 
-[22基地概率论](https://zhuanlan.zhihu.com/p/707091277).
+[22基地概率论期末](https://zhuanlan.zhihu.com/p/707091277).
+
+
+### 2023级
+
+**王汉超** 
+[23强基概率论期中1](https://zhuanlan.zhihu.com/p/1890026208164545282), 
+[23强基概率论期中2](https://zhuanlan.zhihu.com/p/1900178056322225691). 
+
+**联合命题**
+[23概率论期末](https://zhuanlan.zhihu.com/p/1922006616322073920).
 
 
 
@@ -210,6 +257,11 @@ excerpt_separator: <!--more-->
 [22基地&强基抽代期中](https://zhuanlan.zhihu.com/p/696369789). 
 [22基地&强基抽代期末](https://zhuanlan.zhihu.com/p/705584472). 
 
+### 2023级
+
+**李起峰**
+[23基地&强基抽代期中](https://zhuanlan.zhihu.com/p/1899844075600974920).
+
 
 ## 拓扑学
 
@@ -218,6 +270,36 @@ excerpt_separator: <!--more-->
 **栾永志**
 [22基地拓扑期中](https://zhuanlan.zhihu.com/p/695260363). 
 [22基地拓扑期末](https://zhuanlan.zhihu.com/p/705538239). 
+
+### 2023级
+
+**联合命题**
+[23拓扑期末](https://zhuanlan.zhihu.com/p/1920529450405196222).
+
+
+
+## 数学模型
+
+### 2022级
+
+**黄淑祥**
+[22数学模型期末](https://zhuanlan.zhihu.com/p/707264274). 
+
+
+### 2023级
+
+**黄淑祥**
+[23数学模型期中](https://zhuanlan.zhihu.com/p/1897689451091714081).
+
+
+
+## 随机过程
+
+### 2022级
+
+**杜凯**
+[22随机过程期中](https://zhuanlan.zhihu.com/p/6285722733). 
+[22随机过程期末](https://zhuanlan.zhihu.com/p/17825841852). 
 
 
 
@@ -229,6 +311,11 @@ excerpt_separator: <!--more-->
 [21基地&强基数理统计-zhihu](https://zhuanlan.zhihu.com/p/639669183), 
 [21基地&强基数理统计期末](https://NicolasKeng.github.io/exams/21基地数理统计期末.pdf).
 
+### 2022级
+
+**胡发胜**
+[22基地&强基数理统计期末](https://zhuanlan.zhihu.com/p/17761373702).
+
 
 
 ## 微分几何
@@ -238,6 +325,11 @@ excerpt_separator: <!--more-->
 **徐泽** 
 [21基地&数应&学堂微分几何-zhihu](https://zhuanlan.zhihu.com/p/677724157), 
 [21基地&数应&学堂微分几何期末](https://NicolasKeng.github.io/exams/21基地微分几何期末.pdf).
+
+### 2022级
+
+**徐泽** 
+[22基地&数应&学堂微分几何期末](https://zhuanlan.zhihu.com/p/17670707331).
 
 
 
@@ -258,6 +350,22 @@ excerpt_separator: <!--more-->
 **赵翀** 
 [21基地泛函分析-zhihu](https://zhuanlan.zhihu.com/p/677227515), 
 [21基地泛函分析期末](https://NicolasKeng.github.io/exams/21基地泛函分析期末.pdf).
+
+### 2022级
+
+**胡锡俊**
+[22基地泛函分析期末](https://zhuanlan.zhihu.com/p/17236847454).
+
+
+
+## 数值分析
+
+### 2022级
+
+**杜宁** 
+[22数值分析期中](https://zhuanlan.zhihu.com/p/1895919222078559201), 
+[22数值分析期末](https://zhuanlan.zhihu.com/p/1921342485344555389).
+
 
 
 ## 抽象代数2
@@ -281,6 +389,12 @@ excerpt_separator: <!--more-->
 **朱宁**
 [21基地PDE期中](https://NicolasKeng.github.io/exams/21基地PDE期中.jpg). 
 [21基地PDE期末](https://NicolasKeng.github.io/exams/21基地PDE期末.png). 
+
+### 2022级
+
+**朱宁**
+[22基地PDE期中](https://zhuanlan.zhihu.com/p/1898694413993119943). 
+[22基地PDE期末](https://zhuanlan.zhihu.com/p/1920941190913721721). 
 
 
 # 课程作业及其他资料
@@ -328,6 +442,6 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 
 # 致谢
 
-感谢22级的 [zzz](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81), [zrj](https://www.zhihu.com/people/xiao-xue-sheng-72-70), [匿名](https://www.zhihu.com/people/thread-76) 提供2022级试题; 23级的 [匿名](https://www.zhihu.com/people/wei-wei-wei-wu-81-22) 提供2023级试题. 
+感谢22级的 [zzz](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81), [zrj](https://www.zhihu.com/people/xiao-xue-sheng-72-70), [匿名](https://www.zhihu.com/people/thread-76) 提供2022级试题; 23级的 [匿名](https://www.zhihu.com/people/wei-wei-wei-wu-81-22), [专栏](https://www.zhihu.com/column/c_1723722414196944896) 提供2023级试题. 
 
 
