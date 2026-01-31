@@ -167,7 +167,6 @@ excerpt_separator: <!--more-->
 [21大物2期末](https://NicolasKeng.github.io/exams/21大物2期末.pdf).
 
 
-
 ## 复变函数
 
 ### 2021级
@@ -196,7 +195,10 @@ excerpt_separator: <!--more-->
 [23普通班复变期中](https://zhuanlan.zhihu.com/p/5539967945). 
 [23普通班复变期末](https://zhuanlan.zhihu.com/p/16257847781).
 
+### 2024级
 
+**凌松波**
+[24复变期末](https://zhuanlan.zhihu.com/p/16257847781).
 
 ## 实变函数
 
@@ -218,7 +220,8 @@ excerpt_separator: <!--more-->
 ### 2023级
 
 **联合命题**
-[23实变期中](https://zhuanlan.zhihu.com/p/1897997910517486767).
+[23实变期中](https://zhuanlan.zhihu.com/p/1897997910517486767),
+[23实变期末](https://zhuanlan.zhihu.com/p/1924057184628618561).
 
 
 
@@ -260,7 +263,8 @@ excerpt_separator: <!--more-->
 ### 2023级
 
 **李起峰**
-[23基地&强基抽代期中](https://zhuanlan.zhihu.com/p/1899844075600974920).
+[23基地&强基抽代期中](https://zhuanlan.zhihu.com/p/1899844075600974920),
+[23基地&强基抽代期末](https://zhuanlan.zhihu.com/p/1924149877702660373).
 
 
 ## 拓扑学
@@ -301,6 +305,11 @@ excerpt_separator: <!--more-->
 [22随机过程期中](https://zhuanlan.zhihu.com/p/6285722733). 
 [22随机过程期末](https://zhuanlan.zhihu.com/p/17825841852). 
 
+### 2023级
+
+**王汉超**
+[23随机过程期末](https://zhuanlan.zhihu.com/p/1994830046049900522).
+
 
 
 ## 数理统计
@@ -315,6 +324,11 @@ excerpt_separator: <!--more-->
 
 **胡发胜**
 [22基地&强基数理统计期末](https://zhuanlan.zhihu.com/p/17761373702).
+
+### 2023级
+
+**胡发胜**
+[23数理统计期末](https://zhuanlan.zhihu.com/p/1994102154781291511).
 
 
 
@@ -331,6 +345,11 @@ excerpt_separator: <!--more-->
 **徐泽** 
 [22基地&数应&学堂微分几何期末](https://zhuanlan.zhihu.com/p/17670707331).
 
+### 2023级
+
+**徐泽** 
+[23微分几何期末](https://zhuanlan.zhihu.com/p/1992189866419692202).
+
 
 
 ## 微分流形
@@ -340,6 +359,11 @@ excerpt_separator: <!--more-->
 **王相生** 
 [21基地&数应微分流形-zhihu](https://zhuanlan.zhihu.com/p/678245050), 
 [21基地&数应微分流形期末](https://NicolasKeng.github.io/exams/21基地微分流形期末.pdf).
+
+### 2023级
+
+**王相生**
+[23微分流形期末](https://zhuanlan.zhihu.com/p/1994995247730681443).
 
 
 
@@ -355,6 +379,16 @@ excerpt_separator: <!--more-->
 
 **胡锡俊**
 [22基地泛函分析期末](https://zhuanlan.zhihu.com/p/17236847454).
+
+### 2023级
+
+**郑云瑞**
+[23数应泛函分析期中](https://zhuanlan.zhihu.com/p/1971651289281729019),
+[23泛函分析期末](https://zhuanlan.zhihu.com/p/17236847454).
+
+**张晓燕**
+[23强基泛函分析期中](https://zhuanlan.zhihu.com/p/1972267793673093523).
+
 
 
 
@@ -442,6 +476,6 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 
 # 致谢
 
-感谢22级的 [zzz](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81), [zrj](https://www.zhihu.com/people/xiao-xue-sheng-72-70), [匿名](https://www.zhihu.com/people/thread-76) 提供2022级试题; 23级的 [匿名](https://www.zhihu.com/people/wei-wei-wei-wu-81-22), [专栏](https://www.zhihu.com/column/c_1723722414196944896) 提供2023级试题. 
+感谢22级的 [zzz](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81), [zrj](https://www.zhihu.com/people/xiao-xue-sheng-72-70), [匿名](https://www.zhihu.com/people/thread-76) 提供2022级试题; 23级的 [匿名](https://www.zhihu.com/people/wei-wei-wei-wu-81-22), [专栏](https://www.zhihu.com/column/c_1723722414196944896) 提供2023, 2024级试题. 
 
 
