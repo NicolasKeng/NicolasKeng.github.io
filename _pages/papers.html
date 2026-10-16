@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Papers"
+permalink: /papers/
+author_profile: false
+---
+
+{% include base_path %}
+
+{% assign pinned_posts = site.publications | where: "pinned", true %}
+{% assign dated_posts = site.publications | where_exp: "post", "post.pinned != true" | sort: "date" | reverse %}
+
+{% for post in pinned_posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in dated_posts %}
+  {% include archive-single.html %}
+{% endfor %}

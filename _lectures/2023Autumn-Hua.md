@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 date: 2023-12-20
 url: 'Need to add'
 ---
-2023秋季学期在山大华协为大一同学开设的关于数学基础的讨论班, 主要涵盖基础的集合论和群论.
+这是我大三上学期为2023级同学开设的数学基础讨论班, 初衷是希望为有志于基础数学研究的新生打下一个比较坚实的 (课内分析学以外的) 基础.
 <!--more-->
 
 [Download lecture here](https://NicolasKeng.github.io/notes/2023autumn_Hua.pdf)

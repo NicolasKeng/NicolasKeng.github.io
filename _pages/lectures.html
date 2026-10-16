@@ -1,13 +1,20 @@
 ---
 layout: archive
-title: "Lectures"
+title: "Seminars & Talks"
 permalink: /lectures/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.lectures %}
+{% assign pinned_posts = site.lectures | where: "pinned", true %}
+{% assign dated_posts = site.lectures | where_exp: "post", "post.pinned != true" | sort: "date" | reverse %}
+
+{% for post in pinned_posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in dated_posts %}
   {% include archive-single.html %}
 {% endfor %}
 

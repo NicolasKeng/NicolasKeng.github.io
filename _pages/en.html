@@ -1,0 +1,121 @@
+---
+layout: home-profile
+title: "Nicolas Keng’s Homepage in English"
+permalink: /en/
+excerpt: "Nicolas Keng — M.S. student in pure mathematics at Shandong University."
+author_profile: false
+english_home: true
+---
+
+<header class="nk-intro nk-intro--english" aria-labelledby="home-title-en">
+  <div class="nk-intro__summary" data-balanced-intro-en>
+    <div class="nk-intro__hero">
+      <div class="nk-intro__heading">
+        <h1 id="home-title-en">Nicolas Keng’s Homepage in English</h1>
+        <p class="nk-intro__lead"><a href="{{ '/' | relative_url }}">Homepage in Chinese HERE</a></p>
+      </div>
+      <div class="nk-note">
+        <p>Currently, I am an M.S. student in Pure Mathematics at the Center for Mathematics and Interdisciplinary Sciences, <strong>Shandong University</strong>, under the supervision of <a href="http://www.prime.sdu.edu.cn/info/1023/1773.htm">Prof. Shuai Zhai</a> (starting from Sept. 2025).</p>
+        <p>During 2024–2025, I studied at the Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences, in Beijing, where I was mentored by Professors Shuai Zhai and Xin Wan.</p>
+        <p>I received my B.S. in Mathematics from the School of Mathematics, <strong>Shandong University</strong>, in June 2025.</p>
+      </div>
+    </div>
+    <figure class="nk-intro__portrait">
+      <img src="{{ '/images/luotianyi-heart.jpg' | relative_url }}" alt="Luo Tianyi making a heart gesture" width="1024" height="1024">
+    </figure>
+  </div>
+
+  <dl class="nk-details">
+    <div><dt>Affiliation</dt><dd><a href="https://www.math.sdu.edu.cn/">Shandong University</a></dd></div>
+    <div><dt>Advisor</dt><dd><a href="http://www.prime.sdu.edu.cn/info/1023/1773.htm">Prof. Shuai Zhai</a></dd></div>
+    <div><dt>Location</dt><dd>Qingdao, China</dd></div>
+  </dl>
+</header>
+
+<section class="nk-home-section nk-interests" aria-labelledby="interests-title-en">
+  <h2 id="interests-title-en">Research Interests</h2>
+  <p>I am mainly interested in number theory and arithmetic geometry, especially topics related to Iwasawa theory. More specifically: </p>
+  <ul>
+    <li>arithmetic applications of Iwasawa theory, including the BSD conjecture; </li>
+    <li>Heegner points and their applications to special values of $L$-functions and families of quadratic twists, together with related anticyclotomic main conjectures. </li>
+  </ul>
+  <p>I am also interested in several subjects outside mathematics, including: </p>
+  <ul>
+    <li>calligraphy; </li>
+    <li>Chinese Philology; </li>
+    <li>VOCALOID, especially Luo Tianyi (as the design of this website probably makes obvious). </li>
+  </ul>
+</section>
+
+<section class="nk-home-section" aria-labelledby="papers-title-en">
+  <h2 id="papers-title-en">Papers</h2>
+  <p class="nk-paper-citation">[1] <a href="{{ '/publication/1' | relative_url }}">Quadratic Twists of $X_0(14)$</a>, in preparation.</p>
+</section>
+
+<section class="nk-home-section" aria-labelledby="reuse-title-en">
+  <h2 id="reuse-title-en">Reuse &amp; Errata</h2>
+  <div class="nk-update-note">
+    <p>Please do not use my personal materials for commercial purposes. If you find any errors or anything inappropriate in my notes, please feel free to let me know.</p>
+  </div>
+</section>
+
+<section class="nk-home-section nk-home-section--contact" aria-labelledby="contact-title-en">
+  <h2 id="contact-title-en">Contact</h2>
+  <div class="nk-contact-directory">
+    <a href="mailto:nicolaskeng2004@163.com">
+      <span>Mathematics</span>
+      <strong>nicolaskeng2004@163.com</strong>
+      <small>Mathematical correspondence and corrections to notes</small>
+    </a>
+    <a href="mailto:knk2004@163.com">
+      <span>Elsewhere</span>
+      <strong>knk2004@163.com</strong>
+      <small>Non-mathematical correspondence</small>
+    </a>
+    <div>
+      <span>QQ &amp; WeChat</span>
+      <strong>3036536992</strong>
+      <small>Please include your university, school or department, and name in the friend request</small>
+    </div>
+    <a href="https://www.zhihu.com/people/nicolas-keng">
+      <span>Zhihu</span>
+      <strong>@Nicolas Keng</strong>
+      <small>Solutions and related updates</small>
+    </a>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const summary = document.querySelector("[data-balanced-intro-en]");
+    if (!summary) return;
+
+    const desktop = window.matchMedia("(min-width: 1181px)");
+    let frame = 0;
+    const clamp = (value, minimum, maximum) => Math.min(Math.max(value, minimum), maximum);
+
+    const balanceIntro = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        if (!desktop.matches) {
+          summary.style.removeProperty("--nk-intro-portrait-size");
+          summary.style.removeProperty("--nk-intro-summary-width");
+          return;
+        }
+
+        const left = summary.getBoundingClientRect().left;
+        const rightMargin = clamp(window.innerWidth * 0.04, 24, 56);
+        const available = Math.floor(window.innerWidth - left - rightMargin);
+        const size = clamp(available * 0.36, 190, 310);
+
+        summary.style.setProperty("--nk-intro-summary-width", `${available}px`);
+        summary.style.setProperty("--nk-intro-portrait-size", `${Math.round(size * 10) / 10}px`);
+      });
+    };
+
+    window.addEventListener("resize", balanceIntro, { passive: true });
+    desktop.addEventListener?.("change", balanceIntro);
+    document.fonts?.ready.then(balanceIntro);
+    balanceIntro();
+  })();
+</script>

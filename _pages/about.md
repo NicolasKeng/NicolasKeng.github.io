@@ -1,95 +1,150 @@
 ---
+layout: home-profile
 permalink: /
-title: "Nicolas Keng's Homepage"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
+title: "Nicolas Keng’s Homepage in Chinese"
+excerpt: "Graduate student in pure mathematics at Shandong University. Writings, seminars, talks, and open study materials in number theory and beyond."
+author_profile: false
+redirect_from:
   - /about.html
+  - /about/
 ---
 
-About Me
-======
+<header class="nk-intro" aria-labelledby="home-title">
+  <div class="nk-intro__summary" data-balanced-intro>
+    <div class="nk-intro__hero">
+      <div class="nk-intro__heading">
+        <h1 id="home-title">Nicolas Keng’s Homepage in Chinese</h1>
+        <p class="nk-intro__lead"><a href="{{ '/en/' | relative_url }}">Homepage in English HERE</a></p>
+      </div>
+      <div class="nk-note">
+        <p>
+          我是山东大学数学学院 2021 级本科生, 现为山大青岛数学与交叉科学研究中心
+          2025 级基础数学硕士研究生, 关注数论及相关方向.<br>
+          这里是我的数学学习档案,
+          也保存课程笔记, 讨论班讲义和开放给后来者使用的学习资料.
+        </p>
+      </div>
+    </div>
+    <figure class="nk-intro__portrait">
+      <img src="{{ '/images/luotianyi-heart.jpg' | relative_url }}" alt="洛天依比心" width="1024" height="1024">
+    </figure>
+  </div>
 
-山东大学数学学院2021级本科, 山大青岛数学与交叉科学研究中心2025级基础数学研究生在读; 我的导师是 **[翟帅](http://www.prime.sdu.edu.cn/info/1023/1773.htm)**.
+  <dl class="nk-details">
+    <div><dt>Affiliation</dt><dd><a href="https://www.math.sdu.edu.cn/">Shandong University</a></dd></div>
+    <div><dt>Advisor</dt><dd><a href="http://www.prime.sdu.edu.cn/info/1023/1773.htm">Prof. Shuai Zhai</a></dd></div>
+    <div><dt>Location</dt><dd>Qingdao, China</dd></div>
+  </dl>
+</header>
 
-## 如何联系我? 
+<section class="nk-home-section nk-interests" aria-labelledby="interests-title">
+  <h2 id="interests-title">兴趣方向</h2>
+  <p>我主要对数论与算术几何感兴趣, 尤其关注 Iwasawa 理论相关的内容. 具体包括: </p>
+  <ul>
+    <li>Iwasawa 理论的算术应用, 比如 BSD 猜想等; </li>
+    <li>Heegner 点及其在 $L$ 函数特殊值与二次扭族中的应用, 也涵盖相关的反分圆主猜想. </li>
+  </ul>
+  <p>我也对很多其他非数学的内容感兴趣, 具体包括: </p>
+  <ul>
+    <li>书法; </li>
+    <li>汉语言文字学; </li>
+    <li>VOCALOID, 尤其是洛天依 (你可以在我的主页元素中很明显地看出来这一点). </li>
+  </ul>
+</section>
 
-**QQ & WeChat: 3036536992** (由于我QQ空间内会有一些私人信息, 所以请备注学校和学院信息并尽量真实姓名; 微信近乎不用)
+<section class="nk-home-section" aria-labelledby="recent-title">
+  <h2 id="recent-title">最近动态</h2>
+  {% assign recent_lectures = site.lectures | where_exp: "item", "item.pinned != true" %}
+  {% assign recent_notes = site.learnings | where_exp: "item", "item.pinned != true" %}
+  {% assign recent_updates = recent_lectures | concat: recent_notes | sort: "date" | reverse %}
+  <div class="nk-reading-list" data-recent-updates>
+    {% for item in recent_updates limit: 2 %}
+    <a href="{{ item.url | relative_url }}">
+      <span>{% if item.collection == "lectures" %}LECTURE{% else %}NOTE{% endif %}</span>
+      <span class="nk-reading-list__content">
+        <strong>{{ item.title }}</strong>
+        <small>{{ item.excerpt | strip_html | strip_newlines }}</small>
+      </span>
+    </a>
+    {% endfor %}
+    <a href="{{ '/miscellanies/SDUMath-Exams' | relative_url }}">
+      <span>ARCHIVE</span>
+      <span class="nk-reading-list__content">
+        <strong>SDU Math Archive</strong>
+        <small>持续整理的山东大学数学课程, 历年试题与学习资料. </small>
+      </span>
+    </a>
+  </div>
+  <aside class="nk-update-note">
+    <strong>转载与勘误</strong>
+    <p>请勿使用这里的个人内容牟利. 如果发现笔记中的错误或任何不妥, 欢迎随时告诉我. </p>
+  </aside>
+</section>
 
-**E-mail: nicolaskeng2004@163.com** (多用于数学) & **knk2004@163.com** (多用于非数学)
+<section class="nk-home-section nk-purpose-link" aria-labelledby="why-share-title">
+  <h2 id="why-share-title"><a href="{{ '/miscellanies/before/' | relative_url }}">关于网站设立的初衷</a></h2>
+  <p>数学学习最需要的是环境与眼界. 我希望这些并不完美的资料, 能让更多人更早感受到数学的美好.</p>
+</section>
 
-**zhihu: [@Nicolas Keng](https://www.zhihu.com/people/nicolas-keng)**, 主要用来发一些习题答案有关的内容. 会给出链接指引. 
+<section class="nk-home-section nk-home-section--contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">联系方式</h2>
+  <div class="nk-contact-directory">
+    <a href="mailto:nicolaskeng2004@163.com">
+      <span>Mathematics</span>
+      <strong>nicolaskeng2004@163.com</strong>
+      <small>数学交流与笔记勘误</small>
+    </a>
+    <a href="mailto:knk2004@163.com">
+      <span>Elsewhere</span>
+      <strong>knk2004@163.com</strong>
+      <small>数学之外的邮件</small>
+    </a>
+    <div>
+      <span>QQ &amp; WeChat</span>
+      <strong>3036536992</strong>
+      <small>添加时请备注学校, 学院与姓名</small>
+    </div>
+    <a href="https://www.zhihu.com/people/nicolas-keng">
+      <span>Zhihu</span>
+      <strong>@Nicolas Keng</strong>
+      <small>习题答案与相关更新</small>
+    </a>
+  </div>
+</section>
 
-(我最常出现的平台是QQ和Steam)
+<script>
+  (() => {
+    const summary = document.querySelector("[data-balanced-intro]");
+    if (!summary) return;
 
-**由于自身实力原因, 如您发现任何问题或不妥, 请联系我. 万分感谢!**
+    const desktop = window.matchMedia("(min-width: 1121px)");
+    let frame = 0;
 
-## 我都发了什么? 
+    const clamp = (value, minimum, maximum) => Math.min(Math.max(value, minimum), maximum);
 
-首先, 我所收集/整理的SDU试题和资料请参阅 **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)**. 
+    const balanceIntro = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        if (!desktop.matches) {
+          summary.style.removeProperty("--nk-intro-portrait-size");
+          summary.style.removeProperty("--nk-intro-summary-width");
+          return;
+        }
 
-**由于我在百度文库看见了我所整理的pdf文档, 我后期笔记的pdf将部分转化为网页内置或图片. 请勿利用我个人的内容牟利!!!**
+        const left = summary.getBoundingClientRect().left;
+        const rightMargin = clamp(window.innerWidth * 0.04, 24, 56);
+        const available = Math.floor(window.innerWidth - left - rightMargin);
+        const size = clamp(available * 0.31, 170, 290);
 
-页面上的东西很多也很杂, 大致分类原则是: 
+        summary.style.setProperty("--nk-intro-summary-width", `${available}px`);
+        summary.style.setProperty("--nk-intro-portrait-size", `${Math.round(size * 10) / 10}px`);
 
-**[Learnings](https://nicolaskeng.github.io/learnings/)** 收录一些我自己的笔记, 它们大多参考了多份资料. 我会尽量列出参考.
+      });
+    };
 
-**[Lectures](https://nicolaskeng.github.io/lectures/)** 收录一些我所作的讲座和讨论班的资料, 它们主要来自(本科时)我在SDU主办的华协系列活动, (研究生时)我在SDUQD主导的讨论班; 线上与朋友们办的讨论班的我主讲部分等.
-
-**[Miscellanies](https://nicolaskeng.github.io/miscellanies/)** 收录一些其他的(大部分与数学关系不大的)内容. 这里面
-    
-  - 命名为日期的系列是我在本年度中的一些规划或经历, 大多无营养且不完全连贯. 聊作回忆的承托.
-  - 命名为Blog的系列是我的一些兴趣爱好, 大多丝毫不专业, 完全不建议作为参考. 
-  - **[SDUMath](https://nicolaskeng.github.io/miscellanies/SDUMath-Exams)** 作为特殊的置顶系列前业已介绍.
-  - 我的个人兴趣: 语言学与文字学, 书法, Vocaloid, 雀魂, etc.
-
-有一些笔记我会没有那么多的时间去整理, 所以或许有些网页内有很多图片或图片式的PDF. 由于Github库的大小限制, 它们大多在 **[Exercises](https://github.com/NicolasKeng/Exercises)** 和 **[Notes](https://github.com/NicolasKeng/Notes)** 中, 您可以直接捆绑下载. 如果这里面没有, 或许他们也能在知乎上随机地出现.
-
-惯例是每学期的笔记我都会在放寒/暑假第一周(也可能是很久的之后)整理上传. 有时间的话我(**或许**)会慢慢整理的. 
-
-## 我在干什么&我为什么要上传这些东西?
-
-我曾是山东大学2021届数学学院一名很普通的本科生, 现在也是一名很普通的研究生, 名次和数学水平都仅代表我校平均水平. 
-我在山东大学华协(相比于社团, 其更多地定位为一个学术讨论载体)中(曾)担任学习部部长, 负责低年级日常的民间讨论班开设和习题课开设等工作. 
-我从大一走来踩了很多雷, 吃了很多亏. 
-在大一我囿于高中思维, 认为绩点即一切, 于是花费了大量的时间在数分高代的刷题上. 
-这当然不能说没有用, 但是这样的计算熟练度事实上是没有必要的(在考研之前或许会有奇效); 尤其是现在我已经几乎完全将其遗忘. 
-我大一的时间走偏了路, 不知道有什么前沿数学方向, 也不知道有什么几何代数的划分, 只是在好好学数分高代. 
-所以我刷了很多现在看来是没什么用的奇技淫巧. 
-而到了大一快结束的时候我才开始接触一些其他的数学, 在学习高代的时候接触了环论和泛函分析, 在曲面积分部分接触了微分流形. 
-这好像为我打开了一扇新的大门. 
-
-有人会疑惑为什么我不去问学长, 为什么不去找老师让他们给我建议. 
-但刚踏入一个新环境时的人总是腼腆的, 我也不知道我要问什么, 我也不知道我要怎么问, 刚从高三上来, 我没有也不习惯那种问学长学姐让他们帮我指路的方式. 
-经过两年的本科生活, 我自认为在基础语言这方面我的水平虽远不及我们年级中的尖子, 但对于为大一的甚至更小的同学引路已足够. 
-所以我便打算写这样一些东西, 总结一些试题, 让后来的学弟学妹能够有路可循; 至少有客观条件和要完全主动去问老师学长是两码事.
-这便是这个网站最早创立的初衷: 总结SDU的一些试题和资料, 以供后人取用.
-
-后来我发现, 有一些人实际上最开始是对数学有兴趣的, 这些人不一定能进入数院; 同样地, 数院的同学也不一定都是抱着学习纯数的想法来的. 
-不管对于哪一类同学, 只要你的路上有着纯数, 那他们就应该去尽早接触一些现代一些的数学观念, 而不是在数分和高代的题海里或绩点中迷茫. 
-
-我仅仅是一个很普通的没有什么天赋的人, 但是我热爱数学, 我也热爱国家, 我希望我们国家的数学能够向前发展. 
-我知道我没有比同龄人更多的领悟能力, 我这辈子应该也做不出来什么很好的成果. 
-但我还是希望数学能够更好地发展, 我尤其期待我们国家的数学能够在国际上得到更高的地位. 
-基础数学的真正入门是从本科数学开始的, 而对于本科阶段的数学最重要的莫过于环境和眼界. 
-我甚至是在本科一年级结束的时候才开始知道拓扑和代数这种知识, 而一些来自大城市或受到过良好科普的同学在大学之前就能系统的接受本科数学的介绍甚至培训, 这是我这种来自小城市的人所不能体验到的. 
-这些资料或许能够在某种程度上缩小一些这种差距, 我只想让所有这些新来的同学知道, 数学其实也很美好, 也很能够吸引人, 而不全是大一所了解的那些繁琐无趣积分和矩阵的计算. 
-
-现在的中文互联网上已经有了相当的资料, 但是鱼龙混杂, 神必人与云玩家也不在少数, 我也常受其纷扰. 
-我一向说, 理论数学的研究必不可缺的是家庭条件和理想主义. 
-有那种理论数学的研究者振臂一呼, 翻译外国教材或是编写自己的讲义, 或许还请一些国外的人来作报告; 我们这些学生没有这种条件, 只能去分享自己的笔记或开讨论班分享自己的经验. 
-我们都知道这些事情其实能起到的作用微乎其微, 我们也知道注定会有大部分人不去认真听不去认真学. 
-但中国的理论数学真的落后了太久, 我们真的太需要新鲜血液的补充了. 
-这或许也是这种数学工作者的一种理想主义, 或者说浪漫主义所在: 明知不可为而为之, 于是功成不必在我, 功成必定有我. 
-
-我和我的同学们收集的SDU的资料应该能帮助一些后来者拥有一个更好的平台, 我所做的这些笔记也或许能让后来者少一些弯路.
-所以我借助Github(最早是香蕉空间, 但是我实在有太多的图片了)搭建了这个平台.
-一方面他能让我随时随地去回顾我之前学习过的东西; 另一方面, 这些公开的文档应该对一些其他人也有着些许的作用. 
-
-谢谢你们, 愿我们国家的数学越来越好.
-
-
-
-
-
+    window.addEventListener("resize", balanceIntro, { passive: true });
+    desktop.addEventListener?.("change", balanceIntro);
+    document.fonts?.ready.then(balanceIntro);
+    balanceIntro();
+  })();
+</script>

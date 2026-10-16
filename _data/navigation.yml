@@ -1,13 +1,19 @@
 # main links links
 main:
-  - title: "Curriculum Vitae"
+  - title: "About Me"
+    url: /
+
+  - title: "CV"
     url: /cv/
-    
-  - title: "Learnings"
+
+  - title: "Papers"
+    url: /papers/
+
+  - title: "Writings"
     url: /learnings/
-    
-  - title: "Lectures"
-    url: /lectures/
-    
+
   - title: "Miscellanies"
     url: /miscellanies/
+
+  - title: "Seminars & Talks"
+    url: /lectures/

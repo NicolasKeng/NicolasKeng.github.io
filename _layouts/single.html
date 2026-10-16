@@ -34,7 +34,9 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
+        {% if page.date_display %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> {{ page.date_display }}</p>
+        {% elsif page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -49,11 +51,16 @@ layout: default
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
     
-        </header>
+      </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.excerpt_separator and content contains page.excerpt_separator %}
+          {% assign article_content_parts = content | split: page.excerpt_separator %}
+          {{ article_content_parts | last }}
+        {% else %}
+          {{ content }}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

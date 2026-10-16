@@ -11,21 +11,70 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
-
+  <body class="nk-site-body{% if page.english_home %} nk-site-body--english-home{% endif %}">
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
 
-    {{ content }}
+    <div class="nk-site-frame">
+      <aside class="nk-site-sidebar" aria-label="Site information and navigation">
+        <div class="nk-sidebar__top">
+          <a class="nk-sidebar__identity" href="{{ base_path }}{% if page.english_home %}/en/{% else %}/{% endif %}" aria-label="Nicolas Keng — Home">
+            <strong>{{ site.title }}</strong>
+            <span>{{ site.name }}</span>
+          </a>
+          <p class="nk-sidebar__tagline">{{ site.tagline | default: "Number Theory" }}</p>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+          <div class="nk-sidebar__languages" aria-label="Language selection">
+            <a href="{{ base_path }}/">[CN]</a>
+            <a href="{{ base_path }}/en/">[EN]</a>
+          </div>
+
+          <nav class="nk-sidebar__nav" aria-label="Main navigation">
+            {% if page.english_home %}
+              <a href="{{ base_path }}/en/" aria-current="page">About Me</a>
+              <a href="{{ base_path }}/cv/">CV</a>
+              <a href="{{ base_path }}/papers/">Papers</a>
+            {% else %}
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              {% assign nav_active = false %}
+              {% if page.url == link.url %}
+                {% assign nav_active = true %}
+              {% elsif link.url != '/' and page.url contains link.url %}
+                {% assign nav_active = true %}
+              {% elsif link.url == '/' and page.url == '/about/' %}
+                {% assign nav_active = true %}
+              {% elsif link.url == '/papers/' and page.collection == 'publications' %}
+                {% assign nav_active = true %}
+              {% elsif link.url == '/lectures/' and page.collection == 'lectures' %}
+                {% assign nav_active = true %}
+              {% endif %}
+              <a href="{{ domain }}{{ link.url }}"{% if nav_active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+            {% endfor %}
+            {% endif %}
+          </nav>
+        </div>
+
+        <div class="nk-sidebar__art" aria-hidden="true"></div>
+
+        <div class="nk-sidebar__bottom">
+          <div class="nk-sidebar__social" aria-label="Social links">
+            <a href="mailto:{{ site.author.email }}">Email</a>
+            <a href="https://github.com/{{ site.author.github }}">Github</a>
+            <a href="https://www.zhihu.com/people/{{ site.author.zhihu }}">Zhihu</a>
+          </div>
+          <p>© {{ site.time | date: '%Y' }} Nicolas Keng</p>
+        </div>
+      </aside>
+
+      <div class="nk-site-content">
+        {{ content }}
+      </div>
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>

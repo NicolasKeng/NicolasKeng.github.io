@@ -2,14 +2,16 @@
 title: "SDU数院试题&个人相关课程资料"
 collection: Miscellanies
 permalink: /miscellanies/SDUMath-Exams
+date_display: "To be continue"
+pinned: true
 excerpt_separator: <!--more-->
 ---
 这是我所整理的山东大学数学学院本科的若干试题和一些作业等资料, 部分由我打出或收集. 需要者自行下载, 欢迎投稿! 
 <!--more-->
 
-投稿(联系方式): 在[主页](https://nicolaskeng.github.io/). 
+投稿 (联系方式): 在[主页](https://nicolaskeng.github.io/).
 
-**可访问[知乎链接](https://zhuanlan.zhihu.com/p/616176249)查看(一个不那么完全的)版本.**
+**可访问[知乎链接](https://zhuanlan.zhihu.com/p/616176249)查看 (一个不那么完全的) 版本.**
 
 我希望将其打造成一个类似于[USTC学习资料](https://www.zhangjy9610.me/USTCdata.html)那样的资料总结和整理.
 
@@ -440,7 +442,7 @@ excerpt_separator: <!--more-->
 
 ## 一些大二基础课的参考资料
 
-一些关于实变(stein)的作业答案可参见 [zhihu个人主页@observer](https://www.zhihu.com/people/nu-ma-zhi-an-bu).
+一些关于实变 (stein) 的作业答案可参见 [zhihu个人主页@observer](https://www.zhihu.com/people/nu-ma-zhi-an-bu).
 
 Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/topology/munkres/).
 
@@ -459,7 +461,7 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 [pdf](https://NicolasKeng.github.io/homeworks/数学模型大作业.pdf), 
 [latex源码](https://NicolasKeng.github.io/homeworks/数学模型大作业.zip).
 
-### 数学实验大作业: 灰色预测与GM(1,1)模型实例
+### 数学实验大作业: 灰色预测与GM (1,1) 模型实例
 [zhihu](https://zhuanlan.zhihu.com/p/632844959), 
 [pdf](https://NicolasKeng.github.io/homeworks/数学实验大作业.pdf), 
 [latex原码](https://NicolasKeng.github.io/homeworks/数学实验大作业.zip).
@@ -477,5 +479,4 @@ Munkres拓扑的前半部分答案可参见 [dbfin: Munkres](https://dbfin.com/t
 # 致谢
 
 感谢22级的 [zzz](https://www.zhihu.com/people/an-ji-suan-tuo-shui-suo-he-81), [zrj](https://www.zhihu.com/people/xiao-xue-sheng-72-70), [匿名](https://www.zhihu.com/people/thread-76) 提供2022级试题; 23级的 [匿名](https://www.zhihu.com/people/wei-wei-wei-wu-81-22), [专栏](https://www.zhihu.com/column/c_1723722414196944896) 提供2023, 2024级试题. 
-
 

@@ -7,6 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.miscellanies reversed %}
+{% assign pinned_posts = site.miscellanies | where: "pinned", true %}
+{% assign dated_posts = site.miscellanies | where_exp: "post", "post.pinned != true" | sort: "date" | reverse %}
+
+{% for post in pinned_posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in dated_posts %}
   {% include archive-single.html %}
 {% endfor %}

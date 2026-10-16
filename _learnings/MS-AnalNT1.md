@@ -4,6 +4,7 @@ collection: learnings
 permalink: /learnings/MS/AnalNT1
 excerpt_separator: <!--more-->
 date: 2026-1-13
+excerpt_en: "Notes from a first-year graduate course on basic analytic number theory at Shandong University."
 ---
 研一SDU解析数论基础课程. 
 <!--more-->
