@@ -9,7 +9,7 @@ redirect_from:
   - /about/
 ---
 
-<header class="nk-intro" aria-labelledby="home-title">
+<header class="nk-intro nk-intro--chinese" aria-labelledby="home-title">
   <div class="nk-intro__summary" data-balanced-intro>
     <div class="nk-intro__hero">
       <div class="nk-intro__heading">
@@ -18,10 +18,10 @@ redirect_from:
       </div>
       <div class="nk-note">
         <p>
-          我是山东大学数学学院 2021 级本科生, 现为山大青岛数学与交叉科学研究中心
-          2025 级基础数学硕士研究生, 关注数论及相关方向.<br>
-          这里是我的数学学习档案,
-          也保存课程笔记, 讨论班讲义和开放给后来者使用的学习资料.
+          我是山大青岛数学与交叉科学研究中心 2025 级基础数学研究生 耿浩源.<br>
+          我之前在山大数学学院读本科, 2025 年毕业, 其中, 我在第四学年在中科院交流.<br>
+          我关注算术几何, 数论及相关方向, 尤其是 Iwasawa 理论, BSD 猜想等.<br>
+          我在这里记录我的数学学习过程, 保存讨论班讲义和开放给后来者使用的学习资料. 我也会时常在此分享自己的一些非数学的兴趣内容. 你可以在<a href="#contact-title">这里</a>联系我.
         </p>
       </div>
     </div>
@@ -114,8 +114,11 @@ redirect_from:
 
 <script>
   (() => {
+    const intro = document.querySelector(".nk-intro--chinese");
     const summary = document.querySelector("[data-balanced-intro]");
-    if (!summary) return;
+    const siteContent = document.querySelector(".nk-site-content");
+    const home = document.querySelector(".nk-home");
+    if (!intro || !summary || !siteContent || !home) return;
 
     const desktop = window.matchMedia("(min-width: 1121px)");
     let frame = 0;
@@ -126,19 +129,26 @@ redirect_from:
       cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
         if (!desktop.matches) {
-          summary.style.removeProperty("--nk-intro-portrait-size");
-          summary.style.removeProperty("--nk-intro-summary-width");
+          intro.style.removeProperty("--nk-intro-portrait-size");
+          intro.style.removeProperty("--nk-intro-summary-width");
+          intro.style.removeProperty("--nk-intro-text-width");
+          intro.style.removeProperty("--nk-intro-full-width");
           return;
         }
 
-        const left = summary.getBoundingClientRect().left;
-        const rightMargin = clamp(window.innerWidth * 0.04, 24, 56);
-        const available = Math.floor(window.innerWidth - left - rightMargin);
-        const size = clamp(available * 0.31, 170, 290);
+        const contentBounds = siteContent.getBoundingClientRect();
+        const homeBounds = home.getBoundingClientRect();
+        const summaryLeft = summary.getBoundingClientRect().left;
+        const textWidth = Math.max(0, homeBounds.right - summaryLeft);
+        const portraitSize = contentBounds.width / 6;
+        const gap = clamp(contentBounds.width * 0.018, 20, 36);
+        const summaryWidth = textWidth + gap + portraitSize;
+        const fullWidth = Math.max(0, contentBounds.right - summaryLeft);
 
-        summary.style.setProperty("--nk-intro-summary-width", `${available}px`);
-        summary.style.setProperty("--nk-intro-portrait-size", `${Math.round(size * 10) / 10}px`);
-
+        intro.style.setProperty("--nk-intro-summary-width", `${Math.round(summaryWidth * 10) / 10}px`);
+        intro.style.setProperty("--nk-intro-text-width", `${Math.round(textWidth * 10) / 10}px`);
+        intro.style.setProperty("--nk-intro-portrait-size", `${Math.round(portraitSize * 10) / 10}px`);
+        intro.style.setProperty("--nk-intro-full-width", `${Math.round(fullWidth * 10) / 10}px`);
       });
     };
 

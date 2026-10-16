@@ -8,21 +8,14 @@ english_home: true
 ---
 
 <header class="nk-intro nk-intro--english" aria-labelledby="home-title-en">
-  <div class="nk-intro__summary" data-balanced-intro-en>
-    <div class="nk-intro__hero">
-      <div class="nk-intro__heading">
-        <h1 id="home-title-en">Nicolas Keng’s Homepage in English</h1>
-        <p class="nk-intro__lead"><a href="{{ '/' | relative_url }}">Homepage in Chinese HERE</a></p>
-      </div>
-      <div class="nk-note">
-        <p>Currently, I am an M.S. student in Pure Mathematics at the Center for Mathematics and Interdisciplinary Sciences, <strong>Shandong University</strong>, under the supervision of <a href="http://www.prime.sdu.edu.cn/info/1023/1773.htm">Prof. Shuai Zhai</a> (starting from Sept. 2025).</p>
-        <p>During 2024–2025, I studied at the Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences, in Beijing, where I was mentored by Professors Shuai Zhai and Xin Wan.</p>
-        <p>I received my B.S. in Mathematics from the School of Mathematics, <strong>Shandong University</strong>, in June 2025.</p>
-      </div>
-    </div>
-    <figure class="nk-intro__portrait">
-      <img src="{{ '/images/luotianyi-heart.jpg' | relative_url }}" alt="Luo Tianyi making a heart gesture" width="1024" height="1024">
-    </figure>
+  <div class="nk-intro__heading">
+    <h1 id="home-title-en">Nicolas Keng’s Homepage in English</h1>
+    <p class="nk-intro__lead"><a href="{{ '/' | relative_url }}">Homepage in Chinese HERE</a></p>
+  </div>
+  <div class="nk-intro__biography">
+    <p>Currently, I am an M.S. student in Pure Mathematics at the Center for Mathematics and Interdisciplinary Sciences, <strong>Shandong University</strong>, under the supervision of <a href="http://www.prime.sdu.edu.cn/info/1023/1773.htm">Prof. Shuai Zhai</a> (starting from Sept. 2025).</p>
+    <p>During 2024–2025, I studied at the Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences, in Beijing, where I was mentored by Professors Shuai Zhai and Xin Wan.</p>
+    <p>I received my B.S. in Mathematics from the School of Mathematics, <strong>Shandong University</strong>, in June 2025.</p>
   </div>
 
   <dl class="nk-details">
@@ -84,38 +77,3 @@ english_home: true
     </a>
   </div>
 </section>
-
-<script>
-  (() => {
-    const summary = document.querySelector("[data-balanced-intro-en]");
-    if (!summary) return;
-
-    const desktop = window.matchMedia("(min-width: 1181px)");
-    let frame = 0;
-    const clamp = (value, minimum, maximum) => Math.min(Math.max(value, minimum), maximum);
-
-    const balanceIntro = () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        if (!desktop.matches) {
-          summary.style.removeProperty("--nk-intro-portrait-size");
-          summary.style.removeProperty("--nk-intro-summary-width");
-          return;
-        }
-
-        const left = summary.getBoundingClientRect().left;
-        const rightMargin = clamp(window.innerWidth * 0.04, 24, 56);
-        const available = Math.floor(window.innerWidth - left - rightMargin);
-        const size = clamp(available * 0.36, 190, 310);
-
-        summary.style.setProperty("--nk-intro-summary-width", `${available}px`);
-        summary.style.setProperty("--nk-intro-portrait-size", `${Math.round(size * 10) / 10}px`);
-      });
-    };
-
-    window.addEventListener("resize", balanceIntro, { passive: true });
-    desktop.addEventListener?.("change", balanceIntro);
-    document.fonts?.ready.then(balanceIntro);
-    balanceIntro();
-  })();
-</script>
